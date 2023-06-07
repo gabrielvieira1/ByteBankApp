@@ -5,7 +5,7 @@ namespace ByteBankApp
 {
   public class Password
   {
-    public static bool PasswordIsValid(string passWord)
+    public static bool IsValidPassword(string passWord)
     {
       int validConditions = 0;
 
@@ -48,7 +48,7 @@ namespace ByteBankApp
     }
 
 
-    public static bool PasswordIsValid2(string passWord)
+    public static bool IsValidPassword2(string passWord)
     {
       bool isPasswordValid = true;
 
